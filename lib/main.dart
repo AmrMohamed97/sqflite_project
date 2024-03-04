@@ -1,6 +1,6 @@
 import 'package:database_project/core/utiles/bloc_observer/my_bloc_observer.dart';
-import 'package:database_project/features/home_layout/pages/home_layout.dart';
-import 'package:database_project/features/manager/cubit.dart';
+import 'package:database_project/festures/manager/cubit.dart';
+import 'package:database_project/festures/modules/home_layout/pages/home_layout.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

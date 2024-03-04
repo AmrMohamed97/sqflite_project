@@ -1,4 +1,4 @@
- import 'package:database_project/features/manager/states.dart';
+ import 'package:database_project/festures/manager/states.dart';
 import 'package:flutter/material.dart';
   import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
@@ -56,8 +56,7 @@ class AppCubit extends Cubit<AppStates>{
         'SELECT * FROM amr',
     ).then((value) {
       emit(AppGetFromDatabaseState(val: value));
-      print(value);
-    });
+     });
   }
   void updateDatabase({required String status, required int id})async {
     await database!.rawUpdate(
