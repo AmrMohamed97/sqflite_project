@@ -1,6 +1,6 @@
- import 'package:database_project/features/presentation/manager/cubit.dart';
-import 'package:database_project/features/presentation/manager/states.dart';
-import 'package:database_project/features/presentation/pages/widget/bottom_sheet_body.dart';
+import 'package:database_project/features/home_layout/pages/widget/bottom_sheet_body.dart';
+import 'package:database_project/features/manager/cubit.dart';
+import 'package:database_project/features/manager/states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -33,16 +33,11 @@ class CustomFormField extends StatelessWidget {
       decoration: InputDecoration(
         labelText: isUpperCase ? label!.toUpperCase() : label,
         border: const OutlineInputBorder(),
-        prefix: SizedBox(
-          height: 15.0,
-          child: Icon(prefix),
-        ),
-        suffix: SizedBox(
-          height: 15.0,
-          child: IconButton(
-            onPressed: suffixPressed,
-            icon: Icon(suffix),
-          ),
+        prefixIcon: Icon(prefix),
+        suffixIcon: IconButton(
+          onPressed: suffixPressed,
+          icon: Icon(suffix),
+          padding: EdgeInsets.zero,
         ),
       ),
       enabled: enabled,
