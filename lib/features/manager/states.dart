@@ -1,6 +1,6 @@
-import 'package:database_project/features/presentation/pages/widget/archived_tasks/archived_tasks.dart';
-import 'package:database_project/features/presentation/pages/widget/done_tasks/done_tasks.dart';
-import 'package:database_project/features/presentation/pages/widget/new_tasks/new_tasks.dart';
+import 'package:database_project/features/archived_tasks/pages/archived_tasks.dart';
+import 'package:database_project/features/done_tasks/pages/done_tasks.dart';
+import 'package:database_project/features/new_tasks/pages/new_tasks.dart';
 import 'package:flutter/material.dart';
 
 abstract class AppStates {
