@@ -1,7 +1,6 @@
-
-import 'package:database_project/festures/manager/cubit.dart';
-import 'package:database_project/festures/manager/states.dart';
-import 'package:database_project/festures/modules/home_layout/pages/widget/bottom_sheet_body.dart';
+import 'package:database_project/festures/home_layout/presentation/manager/cubit.dart';
+import 'package:database_project/festures/home_layout/presentation/manager/states.dart';
+import 'package:database_project/festures/home_layout/presentation/pages/widget/bottom_sheet_body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
